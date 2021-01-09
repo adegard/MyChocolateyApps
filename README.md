@@ -16,7 +16,7 @@ download the <a href="https://github.com/adegard/MyChocolateyApps/blob/main/Mych
 
 # Update all packages in one shot!
 ```
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/adegard/MyChocolateyApps/main/Mychocolatey_light.ps1'))
+choco upgrade all -y
 ```
 Schedule frequently update with Windows scheduler:
-![Windows Scheduler action tab](https://github.com/adegard/MyChocolateyApps/blob/main/2021-01-09%2019_33_50-Edit%20Action.png?raw=true)
+![Windows Scheduler action tab](https://github.com/adegard/MyChocolateyApps/blob/main/2021-01-09%2019_36_46-Edit%20Action.png?raw=true)
