@@ -20,7 +20,7 @@ choco install greenshot -y
 # choco install filezilla -y
 choco install curl -y
 choco install youtube-dl -y
-
+choco install chocolateygui -y
 
 # More Tools
 # choco install sysinternals -y
