@@ -33,9 +33,8 @@ choco install meshmixer -y
 choco install inkscape -y
 
 # Games
-choco playnite meshmixer -y
 
-playnite
+
 
 # Dev
 choco install git -y
