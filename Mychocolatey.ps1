@@ -25,6 +25,11 @@ choco install MarkdownMonster -y
 choco install processhacker.install -y
 choco install scrcpy -y
 choco install windirstat -y
+choco install simplewall.install -y
+
+# 2D/3D tools
+choco install meshmixer -y
+choco install inkscape -y
 
 # Dev
 choco install git -y
