@@ -32,6 +32,11 @@ choco install nirlauncher -y
 choco install meshmixer -y
 choco install inkscape -y
 
+# Games
+choco playnite meshmixer -y
+
+playnite
+
 # Dev
 choco install git -y
 choco install vscode -y
@@ -39,4 +44,4 @@ choco install github-desktop -y
 
 
 
-# You´re done! ;)
+# YouÂ´re done! ;)
