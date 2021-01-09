@@ -26,6 +26,7 @@ choco install processhacker.install -y
 choco install scrcpy -y
 choco install windirstat -y
 choco install simplewall.install -y
+choco install nirlauncher -y
 
 # 2D/3D tools
 choco install meshmixer -y
@@ -35,5 +36,7 @@ choco install inkscape -y
 choco install git -y
 choco install vscode -y
 choco install github-desktop -y
+
+
 
 # You´re done! ;)
