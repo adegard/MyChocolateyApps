@@ -17,6 +17,7 @@ choco install greenshot -y
 choco install curl -y
 choco install youtube-dl -y
 choco install chocolateygui -y
+choco install sumatrapdf -y
 
 # More Tools
 choco install adb -y
@@ -36,4 +37,4 @@ choco install simplewall.install -y
 # choco install vscode -y
 choco install github-desktop -y
 
-# You´re done! ;)
+# YouÂ´re done! ;)
