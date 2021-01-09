@@ -33,7 +33,7 @@ choco install meshmixer -y
 choco install inkscape -y
 
 # Games
-
+choco install retroarch -y
 
 
 # Dev
