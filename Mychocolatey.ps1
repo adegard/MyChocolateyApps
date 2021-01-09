@@ -17,6 +17,7 @@ choco install greenshot -y
 choco install curl -y
 choco install youtube-dl -y
 choco install chocolateygui -y
+choco install sumatrapdf -y
 
 # More Tools
 choco install adb -y
