@@ -4,6 +4,11 @@ single command to install Chocolatey and main <a href="https://github.com/adegar
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/adegard/MyChocolateyApps/main/Mychocolatey.ps1'))
 ```
 
+***or Light version***
+```
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/adegard/MyChocolateyApps/main/Mychocolatey_light.ps1'))
+```
+
 ***or***
 
 download the <a href="https://github.com/adegard/MyChocolateyApps/blob/main/Mychocolatey.ps1" target="_blank">file</a> and modify to your needs.
