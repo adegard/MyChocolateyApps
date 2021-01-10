@@ -20,3 +20,14 @@ choco upgrade all -y
 ```
 Schedule frequently update with Windows scheduler:
 ![Windows Scheduler action tab](https://github.com/adegard/MyChocolateyApps/blob/main/2021-01-09%2019_36_46-Edit%20Action.png?raw=true)
+
+or by code
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force
+
+$action = New-ScheduledTaskAction -Execute 'powershell'  -Argument 'choco upgrade all -y'
+
+$trigger =  New-ScheduledTaskTrigger -daily  -At 9am
+
+Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "UpdateChoco" -Description "Update Chocolatey"
+```
