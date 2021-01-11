@@ -22,7 +22,6 @@ choco install sumatrapdf -y
 # More Tools
 choco install adb -y
 choco install bulk-crap-uninstaller -y
-choco install rstray -y
 choco install processhacker.install -y
 choco install scrcpy -y
 choco install windirstat -y
