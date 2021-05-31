@@ -8,28 +8,28 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 # Essentials
 choco install notepadplusplus -y
-choco install googlechrome -y
-choco install vlc -y
+#choco install googlechrome -y
+#choco install vlc -y
 
 # Additional Tools
 choco install 7zip -y
-choco install greenshot -y
-choco install curl -y
-choco install youtube-dl -y
+#choco install greenshot -y
+#choco install curl -y
+#choco install youtube-dl -y
 choco install chocolateygui -y
-choco install sumatrapdf -y
+#choco install sumatrapdf -y
 
 # More Tools
 choco install adb -y
-choco install bulk-crap-uninstaller -y
-choco install MarkdownMonster -y
+#choco install bulk-crap-uninstaller -y
+#choco install MarkdownMonster -y
 # choco install processhacker.install -y
 choco install scrcpy -y
 choco install windirstat -y
-choco install simplewall.install -y
+#choco install simplewall.install -y
 
 # 2D/3D tools
-# choco install meshmixer -y
+choco install meshmixer -y
 # choco install inkscape -y
 
 # Dev
