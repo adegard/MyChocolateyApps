@@ -18,6 +18,11 @@ download the <a href="https://github.com/adegard/MyChocolateyApps/blob/main/Mych
 ```
 choco upgrade all -y
 ```
+# List all packages installed!
+```
+chocolatey list -localonly
+```
+
 Schedule frequently update with Windows scheduler:
 ![Windows Scheduler action tab](https://github.com/adegard/MyChocolateyApps/blob/main/2021-01-09%2019_36_46-Edit%20Action.png?raw=true)
 
